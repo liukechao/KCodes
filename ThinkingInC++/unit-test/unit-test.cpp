@@ -1,0 +1,2 @@
+#include <cppunit/TestSuite.h>
+

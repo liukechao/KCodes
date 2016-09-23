@@ -7,6 +7,8 @@ CStandardLib: C programming using C stardard libraries
 
 C++: C++ programming such as primes, hanoi, calendar, sorting, numbers, objects, etc.
 
+ThinkingInC++: C++ programming from the book Thinking in C++
+
 Algorithm：C implementation of algorithms such as sorting, matching, stack, array, etc.
 
 DataStructure: C++ implementation of data structures, only list for now
