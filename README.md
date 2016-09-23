@@ -9,6 +9,8 @@ C++: C++ programming such as primes, hanoi, calendar, sorting, numbers, objects,
 
 ThinkingInC++: C++ programming from the book Thinking in C++
 
+Java: Java programming including calculator, notepad, SQL, Thinking in Java, etc.
+
 Algorithm：C implementation of algorithms such as sorting, matching, stack, array, etc.
 
 DataStructure: C++ implementation of data structures, only list for now
