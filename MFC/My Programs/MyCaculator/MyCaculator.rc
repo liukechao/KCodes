@@ -1,0 +1,290 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\MyCaculator.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MYCACULATOR_DIALOG DIALOGEX 0, 0, 157, 145
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "计算器"
+MENU IDR_MENU
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT,5,1,145,15,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY,WS_EX_STATICEDGE
+    PUSHBUTTON      "7",IDC_7_BUTTON,5,45,25,20,BS_CENTER | BS_VCENTER
+    PUSHBUTTON      "8",IDC_8_BUTTON,35,45,25,20
+    PUSHBUTTON      "9",IDC_9_BUTTON,65,45,25,20
+    PUSHBUTTON      "/",IDC_DIVIDE_BUTTON,95,45,25,20
+    PUSHBUTTON      "sqrt",IDC_SQAREROOT_BUTTON,125,45,25,20
+    PUSHBUTTON      "4",IDC_4_BUTTON,5,70,25,20
+    PUSHBUTTON      "5",IDC_5_BUTTON,35,70,25,20
+    PUSHBUTTON      "6",IDC_6_BUTTON,65,70,25,20,BS_CENTER
+    PUSHBUTTON      "*",IDC_MULTIPLY_BUTTON,95,70,25,20
+    PUSHBUTTON      "lg",IDC_LOGARITHM_BUTTON,125,70,25,20
+    PUSHBUTTON      "1",IDC_1_BUTTON,5,95,25,20
+    PUSHBUTTON      "2",IDC_2_BUTTON,35,95,25,20
+    PUSHBUTTON      "3",IDC_3_BUTTON,65,95,25,20
+    PUSHBUTTON      "-",IDC_REDUCE_BUTTON,95,95,25,20
+    PUSHBUTTON      "1/x",IDC_RECIPROCAL_BUTTON,125,95,25,20
+    PUSHBUTTON      "0",IDC_0_BUTTON,5,120,25,20
+    PUSHBUTTON      "+/-",IDC_POSITIVEMINUS_BUTTON,35,120,25,20
+    PUSHBUTTON      ".",IDC_RADIXPOINT_BUTTON,65,120,25,20,WS_DISABLED
+    PUSHBUTTON      "+",IDC_ADD_BUTTON,95,120,25,20
+    PUSHBUTTON      "=",IDC_EQUAL_BUTTON,125,120,25,20
+    PUSHBUTTON      "&Backspace",IDC_BACKSPACE_BUTTON,5,20,85,20
+    PUSHBUTTON      "&Clear",IDC_CLEAR_BUTTON,95,20,55,20
+END
+
+IDD_ABOUT_DIALOG DIALOG DISCARDABLE  0, 0, 235, 70
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于计算器"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,190,20,40,15
+    CTEXT           "计算器 1.0 版\n\n版权所有 (C)  2006\n\nAllen  sjtu",
+                    IDC_STATIC,75,15,100,45
+    CONTROL         132,IDC_STATIC,"Static",SS_BITMAP,5,5,64,62
+END
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 70
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于计算器"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,190,20,40,15
+    CTEXT           "计算器 1.0 版\n\n版权所有 (C)  2006\n\nAllen  sjtu",
+                    IDC_STATIC,75,15,100,45
+    CONTROL         132,IDC_STATIC,"Static",SS_BITMAP,5,5,64,62
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MyCaculator Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "MyCaculator\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2006\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "MyCaculator.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "MyCaculator 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MYCACULATOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+
+    IDD_ABOUT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "编辑(&E)", GRAYED
+    BEGIN
+        MENUITEM "复制(&C) Ctrl+C",             ID_MENU_COPY
+        MENUITEM "粘贴(&V) Ctrl+V",             ID_MENU_PASTE
+    END
+    POPUP "查看(&V)", GRAYED
+    BEGIN
+        MENUITEM "标准型(&T)",                  ID_MENU_STANDARD, CHECKED
+        MENUITEM "科学型(&S)",                  ID_MENU_SCIENCE
+        MENUITEM SEPARATOR
+        MENUITEM "数字分组(&I)",                ID_MENU_GROUPED
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "帮助主题(H)",                 ID_MENU_HELP, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "关于计算器(A)",               ID_MENU_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\About.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MyCaculator.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 MyCaculator(&A)..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_MENUITEM32771        "复制结果到剪贴板"
+    ID_MENUITEM32772        "从剪贴板复制数据"
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\MyCaculator.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

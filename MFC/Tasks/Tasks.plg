@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Tasks - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Kechao\AppData\Local\Temp\RSP775E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Tasks.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\Projects\Git\KCodes\MFC\Tasks\MainFrm.cpp"
+"F:\Projects\Git\KCodes\MFC\Tasks\Tasks.cpp"
+"F:\Projects\Git\KCodes\MFC\Tasks\TasksDoc.cpp"
+"F:\Projects\Git\KCodes\MFC\Tasks\TasksView.cpp"
+]
+Creating command line "cl.exe @C:\Users\Kechao\AppData\Local\Temp\RSP775E.tmp" 
+Creating temporary file "C:\Users\Kechao\AppData\Local\Temp\RSP775F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Tasks.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\Projects\Git\KCodes\MFC\Tasks\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Kechao\AppData\Local\Temp\RSP775F.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/Tasks.pdb" /machine:I386 /out:"Release/Tasks.exe"  .\Release\MainFrm.obj .\Release\StdAfx.obj .\Release\Tasks.obj .\Release\TasksDoc.obj .\Release\TasksView.obj .\Release\Tasks.res "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+Tasks.cpp
+TasksDoc.cpp
+TasksView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Tasks.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

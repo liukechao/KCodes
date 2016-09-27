@@ -1,0 +1,11 @@
+;MyDLL.def
+
+LIBRARY mydll
+
+CODE PRELOAD MOVEABLE DISCARDABLE
+DATA PRELOAD SINGLE
+
+EXPORTS
+	;the names of the DLL functions
+	MyBeep
+	MyDelay
