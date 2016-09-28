@@ -1,7 +1,9 @@
 # KCodes
 Programming Codes Written By Kechao
 
-Algorithm：C implementation of algorithms such as sorting, matching, stack, array, etc.
+Algorithm：
+
+	C implementation of algorithms such as sorting, matching, stack, array, etc.
 
 C: 
 
@@ -17,11 +19,17 @@ C++:
 
 	ThinkingInC++: C++ programming from the book Thinking in C++.
 
-DataStructure: C++ implementation of data structures, only list for now.
+DataStructure: 
 
-DesignPatterns: C++ implementation of design patterns.
+	C++ implementation of data structures, only list for now.
+
+DesignPattern: 
 	
-Java: Java programming including calculator, notepad, SQL, Thinking in Java, Web programming(Servlet, Spring, Hibernate), etc.
+	C++ implementation of design patterns.
+	
+Java: 
+	
+	Java programming including calculator, notepad, SQL, Thinking in Java, Web programming(Servlet, Spring, Hibernate), etc.
 
 
 
