@@ -1,23 +1,22 @@
 # KCodes
 Programming Codes Written By Kechao
 
-CBasic: Basic C programming such as helloworld, input, types, macros, endian, etc.
-
-CStandardLib: C programming using C stardard libraries
-
-C++: C++ programming such as primes, hanoi, calendar, sorting, numbers, objects, etc.
-
-ThinkingInC++: C++ programming from the book Thinking in C++
-
-MFC: MFC source code
-
-Java: Java programming including calculator, notepad, SQL, Thinking in Java, etc.
-
 Algorithm：C implementation of algorithms such as sorting, matching, stack, array, etc.
 
-DataStructure: C++ implementation of data structures, only list for now
+C: 
+	CBasic: Basic C programming such as helloworld, input, types, macros, endian, etc.
+	CStandardLib: C programming using C stardard libraries.
 
-DesignPatterns: C++ implementation of design patterns
+C++: 
+	C++Basic: C++ programming such as primes, hanoi, calendar, sorting, numbers, objects, etc.
+	MFC: MFC programming source code.
+	ThinkingInC++: C++ programming from the book Thinking in C++.
 
-Web: Web programming using HTML, jsp, Java(Servlet, Spring, Hibernate), etc. 
+DataStructure: C++ implementation of data structures, only list for now.
+
+DesignPatterns: C++ implementation of design patterns.
+	
+Java: Java programming including calculator, notepad, SQL, Thinking in Java, Web programming(Servlet, Spring, Hibernate), etc.
+
+
 
