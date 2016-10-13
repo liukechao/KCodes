@@ -1,10 +1,14 @@
 # KCodes
 Programming Codes Written By Kechao
 
-Algorithm：
+Algorithm: 
 
 	C implementation of algorithms such as sorting, matching, stack, array, etc.
 
+Android:
+
+	Android programming codes including helloworld, activities, UI, etc.
+	
 C: 
 
 	CBasic: Basic C programming such as helloworld, input, types, macros, endian, etc.
