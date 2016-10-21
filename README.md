@@ -34,6 +34,15 @@ DesignPattern:
 Java: 
 	
 	Java programming including calculator, notepad, SQL, Thinking in Java, Web programming(Servlet, Spring, Hibernate), etc.
+	
+Linux: 
+
+    c: C programming on linux platform including c language fundmentals, socket, etc.
+	
+	cpp: C++ programming on linux platform including C++ language fundmentals, object-oriented programming, etc.
+	
+	shell: basic sh shell scripts.
+	
 
 
 
