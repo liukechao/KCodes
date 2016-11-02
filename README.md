@@ -17,8 +17,6 @@ C:
 
 C++: 
 
-	C++Basic: C++ programming such as primes, hanoi, calendar, sorting, numbers, objects, etc.
-
 	MFC: MFC programming source code.
 
 	ThinkingInC++: C++ programming from the book Thinking in C++.
